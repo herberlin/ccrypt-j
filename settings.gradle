@@ -1,0 +1,4 @@
+rootProject.name = 'ccrypt-j'
+include ':ccrypt'
+
+project(':ccrypt').projectDir = "$rootDir/ccrypt" as File
